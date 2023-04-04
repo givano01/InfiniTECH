@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+      
+
+
+    <title>InfiniTECH - Tjenester</title>
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="./css/style-services.css">-->
+    <link rel="stylesheet" href="./css/style-contact.css">
+    <link rel="icon" href="./images/infinity.png" type="image/x-icon"/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  </head>
+  <body>
+    
+    
+    <nav>
+        <div class = "ul">
+          <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Hjem</a>
+           <div class="dropdown">
+              <a class="drop-link"href="#">Tjenester</a>
+              <div class="dropdown-content">
+                  <a href="webdesign.html">Web Design</a>
+                  <hr>  
+                  <a href="seo.html">SEO</a>
+                  <hr>
+                  <a href="#">Sosiale medier</a>
+                  <hr>
+                  <a href="#">Grafisk design</a>
+              </div>
+            </div>
+            <a id="logo"><img src="./images/infinity.png" ></a>
+            <a href="#about">Om oss</a>
+            <a id= "contact" href="contact.html">Kontakt</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            <img src = "./images/dropdown-icon_white.png" alt = "Home page icon">
+            </a>
+          </div>
+        </div>
+      </nav>
+    <div class ="intro">
+    <h1>Kontakt skjema</h1>
+    <p>Fyll ut dette skjemaet</p>
+  </div>
+    <form method="post" action='contact-form-process.php'>
+      <fieldset>
+        <label for="first-name">Skriv fornavnet ditt: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Skriv etternavnet ditt: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Skriv e-post adressen din: <input id="email" name="email" type="email" required /></label>
+      </fieldset>
+      <fieldset>
+        <p>Tjenester</p>
+        <label for="web-design"><input id="web-design" type="radio" name="service-type" class="inline" /> Web-design</label>
+        <label for="seo"><input id="seo" type="radio" name="service-type" class="inline" /> SEO</label>
+        <label for="social-media"><input id="social-media" type="radio" name="service-type" class="inline" /> Sosiale medier</label>
+        <label for="graphic-design"><input id="graphic-design" type="radio" name="service-type" class="inline" /> Grafisk design</label>
+
+      </fieldset>
+      <fieldset>
+        <label for="comment">Skriv komentar:
+          <textarea id="comment" name="comment" rows="3" cols="30" placeholder="Jeg er vil lære mer om..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Send" />
+    </form>
+    <footer>
+
+    </footer>
+
+  </body>
+  </html>

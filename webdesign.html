@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+      
+
+
+    <title>InfiniTECH - Tjenester</title>
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="./css/style-services.css">
+    <link rel="icon" href="./images/infinity.png" type="image/x-icon"/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  </head>
+  <body>
+    
+    
+    <nav>
+        <div class = "ul">
+          <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Hjem</a>
+           <div class="dropdown">
+              <a class="drop-link"href="#">Tjenester</a>
+              <div class="dropdown-content">
+                  <a href="webdesign.html">Web Design</a>
+                  <hr>  
+                  <a href="seo.html">SEO</a>
+                  <hr>
+                  <a href="#">Sosiale medier</a>
+                  <hr>
+                  <a href="#">Grafisk design</a>
+              </div>
+            </div>
+            <a id="logo"><img src="./images/infinity.png" ></a>
+            <a href="#about">Om oss</a>
+            <a id= "contact" href="contact.html">Kontakt</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            <img src = "./images/dropdown-icon_white.png" alt = "Home page icon">
+            </a>
+          </div>
+        </div>
+      </nav>
+
+  <section id = "webdesign" class="section-services-webdesign">  
+      <div class = "webdesign-left">
+        <img src = "./images/image_webdesign_01.jpg" />
+      </div>
+      <div class = "webdesign-right">
+          <div class="webdesign-right-heading">
+            <h1>Web design</h1>
+        </div>
+        <div class="webdesign-right-paragraph">
+            <p>Vil du at selskapet ditt skal bli synlig på nettet og samtidig være lettere tilgjengelig for dine nye kunder? Her er stedet hvor du kan få dette til. <br><br> Vi i InfiniTECH vet hvordan du kan gjøre din IDEA til virkelighet og lage et nettsted etter dine preferanser. Med vår testet <a href = "index.html#design">design prosess </a>   garanterer vi suksessen til websiden din.
+            
+            </p>
+        </div>
+        <div class = "webdesign-right-button">
+            <a href = "contact.html"> Kontakt </a>
+        </div>
+      </div>
+  </section>
+
+  <section class = "section-services-webdesign-tab">
+    <h2> Nøklene til vellykket nettside</h2>
+    <div class="container-tab">
+        <div class="tab">
+            <button id="defaultOpen" class="tablinks" onclick="verticalTab(event, 'Responsive')"> Mobil/ Responsiv</button>
+            <hr>
+            <button class="tablinks" onclick="verticalTab(event, 'Simple')">Enkelt</button>
+            <hr>  
+            <button class="tablinks" onclick="verticalTab(event, 'Navigate')">Lett å navigere</button>
+            <hr>
+            <button id = "bottom-left-angle" class="tablinks" onclick="verticalTab(event, 'Colors')">Farger</button>
+        </div>
+        
+        <div id="Responsive" class="tabcontent">
+            <h3>Responsivt web design</h3>
+            <p>Bruken av mobiltelefoner har økt drastisk de siste årene, og det er grunnen til at det er veldig viktig å ha en responsiv webside som passer til både små og store skjermer. Ved å gjøre nettstedet ditt responsivt, kan du være sikker på at mobilbrukere vil se nettstedet ditt i sitt beste lys.</p>
+        </div>
+        
+        
+        <div id="Navigate" class="tabcontent">
+            <h3>Nettside som er lett å navigere </h3>
+            <p>Et nettsted som er enkelt å navigere, lar brukerne finne innholdet de leter etter mye raskere. Dette betyr å ha en tydelig menystruktur og muligheten til å navigere mellom sider raskt og effektivt.</p>
+        </div>
+        
+        <div id="Simple" class="tabcontent">
+            <h3>Enkel web design</h3>
+            <p>En enkel design reduserer unødvendige designelementer og reduserer rot. Det er et produkt av en gjennomtenkt prosess, og er på ingen måte enkle å utføre. Evnen til å forenkle betyr å eliminere det unødvendige slik at det nødvendige kan snakke.</p>
+        </div>
+
+        <div id="Colors" class="tabcontent" >
+          <h3>Farger</h3>
+          <p> Farger påvirker oss på mange måter, og det er viktig å velge de riktige. Fargene på nettstedet ditt vil passe naturlig sammen med din virksomhet og merkevare.</p>
+      </div>
+    
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p> © 2021 infiniTECH | Alle rettigheter forbeholdt</p>
+    </div>
+  </footer>
+
+<script src="./js/script_services.js" type="text/javascript">
+
+
+</script>
+  </body>
+</html>
