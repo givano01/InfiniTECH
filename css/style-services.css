@@ -346,7 +346,7 @@ body {
         width: 350px;
         position: static;
         transform: translate(-0px);
-        margin-top: 100px;
+        margin-top: 200px;
     }
 
     .webdesign-right-heading{
@@ -501,6 +501,7 @@ hr{
   }
   .container-tab{
     width: 100%;
+    top: 20%;
   }
   .tab{
     width: 100%;
@@ -786,6 +787,10 @@ hr{
   }
   
   @media screen and (max-width: 600px) {
+
+    .footer{
+      margin-top: 0px;
+    }
     .footer .footer-text{
       transform: translate(-0%);
       position: static;

@@ -584,6 +584,22 @@ width: 50px;
     margin: 0 auto;
     
   }
+
+  .tabcontent {
+    display: none;
+   
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E1E1E1;
+    border-radius: 0px 0px 20px 20px;
+    
+    border-top: none;
+  }
+
+  .tab button p{
+    color: black;
+  }
 }
 
 /* DESIGN----------------------------------------------------------- */
