@@ -10,7 +10,7 @@
     <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
     <!--<link rel="stylesheet" href="./css/style-services.css">-->
     <link rel="stylesheet" href="./css/style-contact.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <!--<link rel="stylesheet" href="./css/style.css">-->
     <link rel="icon" href="./images/infinity.png" type="image/x-icon"/>
 
 
@@ -32,10 +32,6 @@
                   <a href="webdesign.html">Web Design</a>
                   <hr>  
                   <a href="seo.html">SEO</a>
-                  <hr>
-                  <a href="#">Sosiale medier</a>
-                  <hr>
-                  <a href="#">Grafisk design</a>
               </div>
             </div>
             <a id="logo" href="./index.html"><img src="./images/infinity.png" ></a>
@@ -50,16 +46,16 @@
       </nav>
     <div class ="intro">
     <h1>Kontakt skjema</h1>
-    <p>Fyll ut dette skjemaet</p>
+    <p>Fyll gjerne ut dette skjemaet og vi kommer til å kontakte deg</p>
   </div>
     <form method="post" action='contact-form-process.php'>
       <fieldset>
-        <label for="first-name">Skriv fornavnet ditt: <input id="first-name" name="first-name" type="text" required /></label>
-        <label for="last-name">Skriv etternavnet ditt: <input id="last-name" name="last-name" type="text" required /></label>
-        <label for="email">Skriv e-post adressen din: <input id="email" name="email" type="email" required /></label>
+        <label for="first-name">Fornavn: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Etternavn: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">E-post adressen din: <input id="email" name="email" type="email" required /></label>
       </fieldset>
       <fieldset>
-        <p>Tjenester</p>
+        <p>Tjeneste</p>
         <label for="web-design"><input id="web-design" type="radio" name="service-type" class="inline" /> Web-design</label>
         <label for="seo"><input id="seo" type="radio" name="service-type" class="inline" /> SEO</label>
         <label for="social-media"><input id="social-media" type="radio" name="service-type" class="inline" /> Sosiale medier</label>
@@ -67,15 +63,19 @@
 
       </fieldset>
       <fieldset>
-        <label for="comment">Skriv komentar:
-          <textarea id="comment" name="comment" rows="3" cols="30" placeholder="Jeg er vil lære mer om..."></textarea>
+        <label for="comment">Skriv gjerne mer om hva det gjelder:
+          <textarea id="comment" name="comment" rows="3" cols="30" placeholder="Jeg er interessert i..."></textarea>
         </label>
       </fieldset>
       <input type="submit" value="Send" />
     </form>
     <footer>
-
     </footer>
+
+    <script src="./js/script.js" type="text/javascript">
+
+
+    </script>
 
   </body>
   </html>

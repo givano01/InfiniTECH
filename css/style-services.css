@@ -539,7 +539,7 @@ hr{
 
 .seo-left-heading{
     position: absolute;
-    left: 10%;
+    right: 10%;
     top: 30%;
     padding-bottom: 100px;
     width: 520px;
@@ -556,7 +556,7 @@ hr{
     padding-top: 50px;
     position: absolute;
     top: 40%;
-    left: 10%;
+    right: 10%;
     width: 520px;
     line-height: 1.5;
     text-align: right;
@@ -568,7 +568,7 @@ hr{
 .seo-left-button{
   position: absolute;
   top: 75%;
-  left: 59%;
+  right: 10%;
 }
 
 .seo-left-button a{
@@ -713,7 +713,7 @@ hr{
   font-size: 18px;
   border-radius: 20px 20px 0px 0px;
   text-align: center;
-  transition: all 0.5s;
+  transition: all 0.7s;
 
 }
 

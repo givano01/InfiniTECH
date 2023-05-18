@@ -8,76 +8,107 @@ body {
   
   
 }
-
-  .topnav {
-    background-color: white;
-    background: white;
-    position:fixed;
-    width: 100%;
-    text-align: center;
-    transition: background-color 1s ease 0s;
-    z-index:100;
-    float: none;
-    padding: 0px 0px;
-    border-bottom: 1px solid black;
+.topnav {
+  background-color: white;
+  background: transparent;
+  position:fixed;
+  width: 100%;
+  text-align: center;
+  transition: background-color 1s ease 0s;
+  z-index:100;
+  float: none;
+  padding: 0px 0px;
 }
 
 .topnav a {
-    color: black;
-    text-align: center;
-    padding: 20px 25px;
-    text-decoration: none;
-    font-size: 16px;
-    text-align: center;
-    position: relative;
-  
-  }
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+
+}
 
 .topnav a:hover {
-    background-color: black;
-    color: white;
-    border-radius: 15px;
-  }
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+}
 
-  #contact{
-    background-color: transparent;
+#contact{
+  background-color: transparent;
+  color: white;
+  padding: 19px 24px;
+ border: white 2px solid;
+  border-radius: 15px;
+
+}
+ #contact:hover{
+   background-color: white;
+   color:black;
+   /*padding-left: 25px;
+   padding-right: 25px; */
+
+}
+#logo{
+display: inline-block;
+vertical-align: middle;
+padding: 0;
+}
+#logo img{
+  width: 100px;
+  height: 100px;
+
+}
+#logo:hover{
+  border: initial;
+  border-radius: initial;
+  background-color: transparent;
+  border: initial;
+
+}
+
+nav .solid {
+  background-color: #FAFBFF;;
+  transition: background-color 1s ease 0s;
+  border-bottom: 2px solid black; 
+}
+
+nav .solid a{
     color: black;
-    padding: 19px 24px;
-   border: black 2px solid;
-    border-radius: 15px;
-
-  }
-   #contact:hover{
-     background-color: black;
-     color:white;
-     /*padding-left: 25px;
-     padding-right: 25px; */
-  }
-  
-  #logo{
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0;
-  }
-  #logo img{
-    width: 100px;
-    height: 100px;
-
-  }
-  #logo:hover{
-    border: initial;
-    border-radius: initial;
-    background-color: transparent;
-    border: initial;
-
-  }
-  .topnav .icon {
-    display: none;
   }
 
-  nav .solid #logo{
-    border: initial;
-  }
+nav .solid a:hover{
+
+  background-color: black;
+  color: white;
+  /*border: black 2px solid;*/
+}
+
+nav .solid #contact{
+  border: black 2px solid;
+  background: transparent;
+  color: black;
+}
+
+nav .solid #contact:hover{
+  border: black 2px solid;
+  background-color: black;
+  color: white;
+}
+nav .solid .drop-link{
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+nav .solid #logo{
+  border: initial;
+}
 /*Dropdown  */
 .dropdown {
   float: none;
@@ -96,9 +127,7 @@ body {
   font-family: inherit; 
   margin: 0; 
   position: static;
-  color: black;
 }
-
 .dropdown-content {
   border-radius: 15px;
   display: none;
@@ -114,11 +143,6 @@ body {
   
 }
 
-.topnav .dropdown-content a:hover{
-    background-color: transparent;
-    color: #FF4F5A;
-}
-
 .dropdown-content a {
   float: none;
   color: black;
@@ -129,14 +153,14 @@ body {
   font-size: 13px;
 }
 
-.dropdown-content a:hover{
-    background-color: transparent;
-  
-}
-
-.solid .dropdown-content a:hover{
+.topnav .dropdown-content a:hover{
   background-color: transparent;
   color: #FF4F5A;
+}
+
+.dropdown-content a:hover{
+  color: #FF4F5A;
+  background-color: transparent;  
 }
 
 
@@ -147,6 +171,9 @@ body {
 
 .dropdown:hover .dropdown-content {
  display: block;
+
+ 
+  
 }
 
 
@@ -308,6 +335,7 @@ body {
     background-color: #0a0a23;
     border: 1px solid #0a0a23;
     color: #ffffff;
+    border-radius: 7px;
   }
   
   .inline {
@@ -326,6 +354,7 @@ body {
     border-color: white;
     min-width: 300px;
     margin-bottom: 50px;
+    border-radius: 7px;
   }
   
   input[type="file"] {
