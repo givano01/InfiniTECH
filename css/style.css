@@ -569,6 +569,10 @@ width: 50px;
   .tab{
     max-width: 100%;
   }
+
+  #seo p, #web-design p, #social-media p, #graphic-design p{
+    max-width: 80%;
+  }
   .tabcontent {
     
     height: 400px !important;
